@@ -1,0 +1,17 @@
+{
+    "category": "chair",
+    "data_dir": "data_aabb_all_models",
+    "device": "cuda",
+    "epochs": 300,
+    "batch_size": 16,
+    "num_workers": 0,
+    "input_channels": 3,
+    "learning_rate": 0.001,
+    "lr_autodecoder": 0.001,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "alpha": 0.1,
+    "source_latent_dim": 256,
+    "target_latent_dim": 256,
+    "part_latent_dim": 32
+}
