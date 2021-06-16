@@ -5,7 +5,7 @@ Mikaela Angelina Uy, Vladimir G. Kim, Minhyuk Sung, Noam Aigerman, Siddhartha Ch
 
 CVPR 2021
 
-![pic-network](intro_image.png)
+![pic-network](teaser3.png)
 
 ## Introduction
 We propose a novel technique for producing high-quality 3D models that match a given target object image or scan. Our method is based on retrieving an existing shape from a database of 3D models and then deforming its parts to match the target shape. Unlike previous approaches that in- dependently focus on either shape retrieval or deformation, we propose a joint learning procedure that simultaneously trains the neural deformation module along with the embed- ding space used by the retrieval module. This enables our network to learn a deformation-aware embedding space, so that retrieved models are more amenable to match the tar- get after an appropriate deformation. In fact, we use the embedding space to guide the shape pairs used to train the deformation module, so that it invests its capacity in learn- ing deformations between meaningful shape pairs. Further- more, our novel part-aware deformation module can work with inconsistent and diverse part-structures on the source shapes. We demonstrate the benefits of our joint training not only on our novel framework, but also on other state- of-the-art neural deformation modules proposed in recent years. Lastly, we also show that our jointly-trained method outperforms various non-joint baselines.  Our project page can be found [here](https://joint-retrieval-deformation.github.io), and the arXiv version of our paper can be found [here](https://arxiv.org/abs/2101.07889).
