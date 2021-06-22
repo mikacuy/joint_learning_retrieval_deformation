@@ -37,7 +37,7 @@ For more details on the pre-processing scripts, please take a look at `run_prepr
 The renderer used throughout the project can be found [here](https://github.com/mhsung/libigl-renderer). Please modify the paths, including the input and output directories, accordingly at `global_variables.py` if you want to process your own data.
 
 ## Pre-trained Models
-The pretrained models for Ours and Ours w/ IDO, which uses our joint training approach can be found [here](). We also included the pretrained models of our structure-aware deformation-only network, which are trained on random source-target pairs used to initialize our joint training.
+The pretrained models for Ours and Ours w/ IDO, which uses our joint training approach can be found [here](http://download.cs.stanford.edu/orion/joint_embedding_deformation/pretrained_models.tar). We also included the pretrained models of our structure-aware deformation-only network, which are trained on random source-target pairs used to initialize our joint training.
 
 ## Evaluation
 Example commands to run the evaluation script are as follows. The flags can be changed as desired. `--mesh_visu` renders the output results into images, remove the flag to disable the rendering. Note that `--category` is the object category and the values should be set to "chair", "table", "storagefurniture" for classes chair, table and cabinet, respectively.
